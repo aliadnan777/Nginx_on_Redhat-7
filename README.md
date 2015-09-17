@@ -13,7 +13,7 @@
 * start service
 * `sudo service nginx start`
 
-### Virtual Host on redhat7
+### Virtual Host on redhat7-nginx
 
 * create root Directory
 * `mkdir /usr/share/nginx/html/nginadnan`
@@ -22,11 +22,11 @@
 * edit the new file `adnan.conf`
 * `vi /etc/nginx/conf.d/adnan.conf`
 * change the server name and root directory
-* make aindex.html page in nginadnan
+* make index.html page in nginadnan
 * `/usr/share/nginx/html/nginadnan/index.html`
 * open the host file and enter IP address and server name in it
 * `vi /etc/hosts/`
 * restart the nginx server
 * ` systemctl restart nginx.service`
 * open your browser and type nginx.adnan.com
-* 
+
