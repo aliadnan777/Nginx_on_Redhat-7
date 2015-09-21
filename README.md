@@ -14,6 +14,7 @@
  ```
  install the nginx
 * `sudo yum install nginx.x86_64`
+
  start service
 * `sudo service nginx start`
 
