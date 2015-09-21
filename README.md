@@ -1,16 +1,17 @@
 # Nginx_on_Redhat-7
+### installation
 
-* Create a file to discover the repository URL (the following example uses the vi text editor)
+ Create a file to discover the repository URL 
 * `sudo vi /etc/yum.repos.d/nginx.repo`
-* past following contents in the file
+ past following contents in the file
 * `[nginx]`
 * `name=nginx repo`
 * `baseurl=http://nginx.org/packages/rhel/7/$basearch/`
 * `gpgcheck=0`
 * `enabled=1`
-* install the nginx
+ install the nginx
 * `sudo yum install nginx.x86_64`
-* start service
+ start service
 * `sudo service nginx start`
 
 ### Virtual Host on redhat7-nginx
