@@ -1,7 +1,7 @@
 # Nginx_on_Redhat-7
 ### installation
 
- Create a file to discover the repository URL 
+Create a file to discover the repository URL 
 * `sudo vi /etc/yum.repos.d/nginx.repo`
 
  past following contents in the file
@@ -22,7 +22,7 @@
 
  create root Directory
  
-* `mkdir /usr/share/nginx/html/nginadnan`
+* `mkdir -p /usr/share/nginx/html/nginadnan`
 
  copy the default configration file or make new
 
@@ -32,15 +32,15 @@
 
 * `vi /etc/nginx/conf.d/adnan.conf
 
- change the server name and root directory
+ change the server name and root directory in the vhost.conf which is our case adnan.conf
 
  make index.html page in nginadnan
 
-* `/usr/share/nginx/html/nginadnan/index.html`
+* `touch /usr/share/nginx/html/nginadnan/index.html`
 
  open the host file and enter IP address and server name in it
 
-* `vi /etc/hosts/`
+* `sudo vi /etc/hosts`
 
  restart the nginx server
  
