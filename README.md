@@ -23,7 +23,8 @@
  create root Directory
  
 * `mkdir /usr/share/nginx/html/nginadnan`
-* copy the default configration file or make new
+
+ copy the default configration file or make new
 
 * `cp /etc/nginx/conf.d/default.conf /etc/nginx/conf.d/adnan.conf`
 
