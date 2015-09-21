@@ -26,17 +26,24 @@
 * copy the default configration file or make new
 
 * `cp /etc/nginx/conf.d/default.conf /etc/nginx/conf.d/adnan.conf`
-* edit the new file `adnan.conf`
 
-* `vi /etc/nginx/conf.d/adnan.conf`
-* change the server name and root directory
+ edit the new file `adnan.conf`
 
-* make index.html page in nginadnan
+* `vi /etc/nginx/conf.d/adnan.conf
+
+ change the server name and root directory
+
+ make index.html page in nginadnan
+
 * `/usr/share/nginx/html/nginadnan/index.html`
 
-* open the host file and enter IP address and server name in it
+ open the host file and enter IP address and server name in it
+
 * `vi /etc/hosts/`
-* restart the nginx server
+
+ restart the nginx server
+ 
 * ` systemctl restart nginx.service`
-* open your browser and type nginx.adnan.com
+
+ open your browser and type nginx.adnan.com
 
